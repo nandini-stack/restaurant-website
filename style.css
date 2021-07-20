@@ -1,0 +1,156 @@
+/* Global Styles*/
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 1%;
+  width: 80%;
+}
+.clearfix {
+  clear: both;
+  float: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header*/
+#branding {
+  float: left;
+  width: 10%;
+}
+.imageLogo {
+  width: 100%;
+}
+nav {
+  text-align: right;
+}
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+  padding: 20px;
+  margin-top: 10px;
+}
+nav li a {
+  color: #ff6b81;
+  cursor: pointer;
+}
+a:hover {
+  color: #ff4757;
+}
+
+/* Food-search*/
+.Food-search {
+  background-image: url(images/bg.jpg);
+  padding: 7% 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-centre {
+  text-align: center;
+}
+
+.Food-search input[type="text"] {
+  width: 50%;
+  padding: 1%;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+}
+.Button1 {
+  padding: 1%;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+}
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #ff4757;
+}
+/* Food- categories*/
+#food-categories {
+  padding: 4% 0;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.box3 {
+  width: 28%;
+  float: left;
+
+  margin: 2%;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 2px;
+  left: 50px;
+}
+.text-white {
+  color: white;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.img-curve {
+  border-radius: 10px;
+}
+
+/* Food-menu*/
+#food-menu {
+  padding: 4% 0;
+  background-color: #ececec;
+}
+.Food-menu-box {
+  width: 43%;
+
+  margin: 2%;
+  padding: 1%;
+  float: left;
+  background-color: white;
+}
+.Food-menu-img img {
+  width: 20%;
+  border-radius: 5px;
+  float: left;
+}
+.Food-menu-desc {
+  margin-left: 8%;
+  float: left;
+  width: 70%;
+}
+.food-price {
+  margin: 2% 0;
+  font-size: 1.2rem;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+/* Footer*/
+footer ul li {
+  display: inline;
+  padding: 2%;
+}
+footer ul a {
+  list-style-type: none;
+
+  color: #ff6b81;
+}
+footer ul li a :hover {
+  color: #ff4757;
+}
